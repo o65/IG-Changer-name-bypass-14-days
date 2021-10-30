@@ -47,11 +47,11 @@ def cookie_function():
     
     if request_url == 200:
       print(f"Your Name is Changing To",name)
-      input()
-      print("Please Press Enter To Exit")
+      input("\n\nPlease Press Enter To Exit")
+      
     else:
         print(f"Error Could not login into your account")
-        input()
+        input("Please Press Enter To Exit")
         exit()
 
 logdata = {
